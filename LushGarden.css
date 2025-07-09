@@ -185,6 +185,7 @@ footer {
 }
 
 #copyright {
+    width: 100vw;
     margin-top: 0;
     margin-bottom: 0;
     background-color: black;
