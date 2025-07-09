@@ -87,6 +87,9 @@ h1,h2,h3 {
     flex-direction: row;
 }
 
+.card:hover{
+    cursor: pointer;
+}
 .card{
     display: flex;
     flex-direction: column;
@@ -96,10 +99,7 @@ h1,h2,h3 {
     gap: 2vh;
     width: 20vw;
     border-radius: 30px;
-    
-    :hover{
-        cursor: pointer;
-    }
+
 
     h3{
         color: #285A43;
