@@ -139,7 +139,7 @@ h1,h2,h3 {
 
 
     }
-    button {
+    #button {
         height: 6vh;
         width: 10vw;
         border-radius: 5px;
