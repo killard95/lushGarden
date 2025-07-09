@@ -5,10 +5,6 @@ body {
 main {
     font-family: 'Raleway';
 }
-
-li {
-    list-style-type: none;
-}
 a {
     text-decoration: none;
     color: black;
@@ -30,6 +26,10 @@ header {
     flex-direction: row;
     justify-content: space-between;
     font-family: 'Lato';
+    gap: 5vw;
+}
+nav {
+    display: flex;
     gap: 5vw;
 }
 
@@ -166,7 +166,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2vh;
+    gap: 5vh;
     
     a {
         color: white;
